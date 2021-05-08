@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="collapsibleText">
+
+<h1>General Studies 2</h1>
+
+<!--<p>A Collapsible:</p>-->
+<button type="button" class="collapsible" style="margin-top: 50px;">Syllabus</button>
+<div class="content">
+  <p>
+    <ul>
+      <li>Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.</li>
+      <li>Development, Bio diversity, Environment, Security and Disaster Management.</li>
+      <li>Government Budgeting.</li>
+      <li>Inclusive growth and issues arising from it.</li>
+      <li>Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers</li>
+      <li>Economics of animal-rearing.</li>
+      <li>Food processing and related industries in India- scope and significance, location, upstream and downstream requirements, supply chain management.</li>
+      <li>Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions</li>
+      <li>Land reforms in India.</li>
+      <li>Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.</li>
+      <li>Infrastructure: Energy, Ports, Roads, Airports, Railways etc.</li>
+      <li>Investment models.</li>
+      <li>Science and Technology- developments and their applications and effects in everyday life Achievements of Indians in science & technology</li>
+      <li>Indigenization of technology and developing new technology</li>
+      <li>Conservation, environmental pollution and degradation, environmental impact assessment</li>
+      <li>Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights</li>
+      <li>Disaster and disaster management</li>
+      <li>Role of external state and non-state actors in creating challenges to internal security</li>
+      <li>Linkages between development and spread of extremism</li>
+      <li>Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention</li>
+      <li>Various Security forces and agencies and their mandate</li>
+      <li>Security challenges and their management in border areas; linkages of organized crime with terrorism</li>
+    </ul>
+</p>
+</div>
+
+<p>Notes:</p>
+<button type="button" class="collapsible">1. Indian Constitution</button>
+<div class="content">
+  <ol>
+    <li>
+    <p>Contempt of Court: Arbitrary use of the powers by the courts eg: Prashant Bhushan.<br>
+          Situation in other countries: England(From where it originated) recommendation to remove COC, obsolete in foreign democracies like Canada and US<br>
+                         Eg: England press called judge Old fool( Judge replied I am old but fool is others perception) and Enemies of public in Brexit case, in bath situation Judiciary avoided the use of COC.<br>
+          Problem in India: Wide field for coc and suo moto power, even after 2006 amendment for good faith. It is loosing public faith and confidence, no test for contempt, restricting rt to speak, silencing the critic, not taking lightly( court and judges can have wide shoulders to shrug off few comments)
+</p> </li>
+  </ol>
+</div>
+<button type="button" class="collapsible">2. Federal Structure</button>
+<div class="content">
+  <ol>
+      <li>
+      <p>Ladakh: Under staff departments, confusion over recruitment and opacity over governance. Demand for PSC for the UT. 
+               Essential departments are without any heads and even are understaffed i.e: Doctors, Agriculture, Education, Food control, Disaster management.
+      </p> </li>
+      <li>
+      <p>J&K: Lieutenant-Governor appointed: Manoj Sinha; Ex-LG: Murmu (1st LG of J&K Union territory) now appointed as CAG(art 148,149)
+      </p> </li>
+  </ol>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

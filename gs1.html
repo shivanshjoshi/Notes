@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="collapsibleText">
+
+<h1>General Studies 2</h1>
+
+<!--<p>A Collapsible:</p>-->
+<button type="button" class="collapsible" style="margin-top: 50px;">Syllabus</button>
+<div class="content">
+  <p>
+    <ul>
+      <li>Indian culture covers the salient features of Literature, Art Forms, and Architecture from ancient to modern times.</li>
+      <li>Modern Indian history include the significant events, personalities, issues during the middle of the eighteenth century until the present</li>
+      <li>Various stages and important contributors and contributions from different parts of the country in ‘The Freedom Struggle’</li>
+      <li>Post-independence consolidation and reorganization within the country</li>
+      <li>History of the world includes events, forms and effect on the society from 18th century like world wars, industrial revolution, colonization, redrawal of national boundaries, decolonization, political philosophies like communism, capitalism, socialism etc</li>
+      <li>Salient aspects of Diversity of India and Indian Society</li>
+      <li>Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and remedies</li>
+      <li>Social empowerment, communalism, regionalism & secularism</li>
+      <li>Distribution of key natural resources across the world including South Asia and the Indian sub-continent; factors responsible for the location of primary, secondary, and tertiary sector industries in various parts of the world including India</li>
+      <li>Effects of globalization on Indian society</li>
+      <li>Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location- changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes</li>
+      <li>Salient features of world’s physical geography</li>
+    </ul>
+</p>
+</div>
+
+<p>Notes:</p>
+<button type="button" class="collapsible">1. Indian Constitution</button>
+<div class="content">
+  <ol>
+    <li>
+    <p>Contempt of Court: Arbitrary use of the powers by the courts eg: Prashant Bhushan.<br>
+          Situation in other countries: England(From where it originated) recommendation to remove COC, obsolete in foreign democracies like Canada and US<br>
+                         Eg: England press called judge Old fool( Judge replied I am old but fool is others perception) and Enemies of public in Brexit case, in bath situation Judiciary avoided the use of COC.<br>
+          Problem in India: Wide field for coc and suo moto power, even after 2006 amendment for good faith. It is loosing public faith and confidence, no test for contempt, restricting rt to speak, silencing the critic, not taking lightly( court and judges can have wide shoulders to shrug off few comments)
+</p> </li>
+  </ol>
+</div>
+<button type="button" class="collapsible">2. Federal Structure</button>
+<div class="content">
+  <ol>
+      <li>
+      <p>Ladakh: Under staff departments, confusion over recruitment and opacity over governance. Demand for PSC for the UT. 
+               Essential departments are without any heads and even are understaffed i.e: Doctors, Agriculture, Education, Food control, Disaster management.
+      </p> </li>
+      <li>
+      <p>J&K: Lieutenant-Governor appointed: Manoj Sinha; Ex-LG: Murmu (1st LG of J&K Union territory) now appointed as CAG(art 148,149)
+      </p> </li>
+  </ol>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
